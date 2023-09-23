@@ -1,0 +1,89 @@
+ body {
+    height: 100%;
+
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(255, 181, 193), rgb(252, 252, 92));
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#content {
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    color: rgb(154, 46, 187);
+    font-size: 3rem;
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+
+#description {
+    text-align: center;
+    color: rgb(154, 46, 187);
+    font-size: 2rem;
+    margin: 10px 200px;
+}
+
+#resources {
+    display: inline-block;
+    margin-left: 75px;
+    margin-right: 75px;
+    width: 100%;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 20px;
+    width: 40%;
+    min-height: 250px;
+    padding: 10px;
+}
+
+.card-text {
+    font-size: 1.25rem;
+    text-align: left;
+    line-height: 35px;
+    
+    
+
+}
+
+#first-card {
+    display: inline-block;
+}
+
+#second-card {
+    float: left;
+}
+
+#pointer {
+    transform: rotate(180deg);
+}
+
+   .mt-0 {
+    margin-top: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0; 
+} 
+a{
+    text-decoration: none;
+} 
+button{
+    margin-right:10px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    border: 1px 2px solid snow;
+    color: rgb(129, 127, 127);
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(157, 194, 181);
+}
